@@ -5,10 +5,6 @@ using Exercicio3Enum.Client.Order.OrderItem;
 using Exercicio3Enum.Client.Order;
 using System.Globalization;
 
-namespace Project {
-    internal class Program{ 
-        static void main()
-        {
             Console.WriteLine($"Enter client data: ");
             Console.Write($"Name: ");
             string clientName = Console.ReadLine();
@@ -39,6 +35,3 @@ namespace Project {
             Console.WriteLine();
             Console.WriteLine($"Order Summary:");
             Console.WriteLine(order);
-        }
-    }
-}
