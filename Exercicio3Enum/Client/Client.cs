@@ -24,7 +24,7 @@ namespace Exercicio3Enum.Client
         }
         public override string ToString()
         {
-            return $"{Name}, Birthdate: ({BirthDate.ToString("dd/MM/yyyy")}) - Email: {Email}";
+            return $"Client: {Name}, Birthdate: ({BirthDate.ToString("dd/MM/yyyy")}) - Email: {Email}";
         }
     }
 }

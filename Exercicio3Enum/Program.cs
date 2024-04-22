@@ -3,7 +3,6 @@ using Exercicio3Enum.Client;
 using Exercicio3Enum.Client.Order.OrderItem.Product;
 using Exercicio3Enum.Client.Order.OrderItem;
 using Exercicio3Enum.Client.Order;
-using System.Globalization;
 
             Console.WriteLine($"Enter client data: ");
             Console.Write($"Name: ");
@@ -25,7 +24,7 @@ using System.Globalization;
                 Console.Write($"Product name: ");
                 string productName = Console.ReadLine();
                 Console.Write($"Product price: ");
-                double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                double price = double.Parse(Console.ReadLine());
                 Console.Write($"Quantity: ");
                 int quantity = int.Parse(Console.ReadLine());
                 Products products = new Products(productName, price);
